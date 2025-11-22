@@ -1,0 +1,7 @@
+echo "data/" >> .gitignore
+# then move your big CSVs into data/
+mkdir -p data
+mv xnas-itch-20190101-20251111.ohlcv-1m.csv data/
+mv taiex_2019_to_2025.csv data/
+mv 1_min_SPY_2008-2021.csv data/
+mv testing_for_size.csv data/
